@@ -1,7 +1,8 @@
-<script setup></script>
-
 <template>
+	<TheHeader />
 	<router-view />
 </template>
 
-<style></style>
+<script setup>
+import TheHeader from './_nav/the-header.vue';
+</script>
